@@ -54,7 +54,7 @@ table {
 	border-spacing: 0;
 }
 
-/* -----Header-----*/
+/****** HEADER ******/
 
 .container {
     width: 1170px;
@@ -62,6 +62,8 @@ table {
 	/*background-color: yellow;
 	height: 100PX;*/
 }
+
+/****** MENU ******/
 
 header {
     height: 100px;
@@ -108,5 +110,51 @@ header {
 	background-color:#f8f9fb;
 	color: #49cbcd !important;
 	border-bottom: 2px solid #49cbcd;
+}
+
+.slider1 {
+	background-image: url('../images/banner.jpg');
+	background-repeat: no-repeat;
+	height: 565px;
+	background-size: cover;
+	padding-top: 140px;
+}
+
+/****** BANNER ******/
+
+.clear {
+	clear: both;
+}
+
+.banner {
+	text-align: center;
+}
+
+.banner h2 {
+	font-size: 6.3em;
+	font-weight: 600;
+	color: #FFF;
+	text-align: center;
+	text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.16);
+	margin-bottom: 50px;
+	
+}
+
+.banner p {
+	font-size: 2.3em;
+	color: #fff;
+	padding: 0 33%;
+	line-height: 30px;
+	margin-bottom: 65px;
+}
+
+.banner a {
+	text-decoration: none;
+	color: #fff;
+	border:3px solid  #fff;
+	font-weight: 600;
+	font-size: 2.6em;
+	border-radius: 5px;
+	padding: 20px 50px;
 }
 
