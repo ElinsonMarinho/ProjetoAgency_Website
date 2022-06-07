@@ -112,6 +112,8 @@ header {
 	border-bottom: 2px solid #49cbcd;
 }
 
+/****** BANNER ******/
+
 .slider1 {
 	background-image: url('../images/banner.jpg');
 	background-repeat: no-repeat;
@@ -120,7 +122,7 @@ header {
 	padding-top: 140px;
 }
 
-/****** BANNER ******/
+
 
 .clear {
 	clear: both;
@@ -158,3 +160,65 @@ header {
 	padding: 20px 50px;
 }
 
+/******SERVICES******/
+.box4 {
+	float: left;
+	width: 25%;
+	box-sizing: border-box;
+}
+
+#services {
+	padding: 105px 0 100px;
+	height: 315px;
+	overflow: hidden;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.bola {
+	width: 105px;
+	height: 105px;
+	border: 3px solid #49cbcd;
+	margin: 0 auto 50px;
+	border-radius: 50%;
+}
+
+.bola i {
+	color: #49cbcd;
+	font-size: 4.0em;
+	line-height: 105px;
+	transition: transform;
+}
+
+.bola i:hover{
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+}
+
+#services h2 {
+	font-size: 2.2em;
+	color: #4e525d;
+	margin-bottom: 30px;
+}
+
+
+#services p {
+	font-size: 1.4em;
+	color: #4e525d;
+	margin-bottom: 25px;
+	line-height: 25px;
+}
+
+#services a {
+	font-size: 1.4em;
+	background-color: #49cbcd;
+	color: #fff;
+	border-radius: 5px;
+	text-decoration: none;
+	padding: 10px 15px;
+}
