@@ -222,3 +222,49 @@ header {
 	text-decoration: none;
 	padding: 10px 15px;
 }
+
+/******PORTIFÓLIO******/
+
+.titulo {
+	font-size: 4.2em;
+	color: #4e525d;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+#portfolio {
+	background-color: #f1f1f1;
+	padding: 60px 0 100px;
+}
+
+.box3 {
+	float: left;
+	width: 33.333%;
+	padding: 0px 0px 30px;
+	box-sizing: border-box;
+}
+
+#portfolio img {
+	max-width: 92%;
+}
+
+#portfolio img:hover {
+	box-shadow: 0 05px #000;
+}
+
+.btn-portfolio {
+	background-color:#49cbcd;
+	color: #FFF;
+	font-size: 2.4em;
+	font-weight: 600;
+	text-decoration: none;
+	border-radius: 5px;
+	padding: 25px 40px;
+	display: inline-block;
+	margin-top: 15px;
+}
+
+.btn-portfolio:hover {
+	background-color:#4e525d;
+	box-shadow: 0 0 5px #000;
+}
