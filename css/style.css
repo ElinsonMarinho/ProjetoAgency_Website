@@ -301,10 +301,14 @@ header {
 }
 
 #team img:hover {
+
 	transition: all 0.5s;
 	border: 1px solid #4e525d;
 	box-shadow: 0 0 5px #4e4e4e;
 }
+
+
+/*************PRICE*************/
 
 #price {
 	background-color: #f1f1f1;
@@ -322,8 +326,12 @@ header {
 	transform:scale(1.01);
 	cursor: pointer;
 }
+#price table:hover th,
+#price table.hover ntr:last-child a {
+	background-color:#49cbcd;
+}
 
-#price table:hover th {
+#price td, #price th {
 	border: 1px solid #f1f1f1;
 	text-align: center;
 	vertical-align: middle;
@@ -341,4 +349,26 @@ header {
 	font-size: 1.4em;
 	color: #8c9299;
 	background-color: #FFF;
+}
+
+#price tr:nth-child(2) td {
+	color: #485460;
+	font-size: 2.0em;
+	background-color: #f8f9fb;
+	height: 70px;
+}
+
+#price tr:last-child td {
+	background-color: #f8f9fb;
+	height: 100px;
+}
+
+#price .btn-table {
+	background-color: #788492;
+	color: #FFF;
+	border-radius: 3px;
+	padding: 12px 50px;
+	font-size: 17px;
+	font-weight: 600;
+	text-decoration: none;
 }
