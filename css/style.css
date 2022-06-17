@@ -489,3 +489,38 @@ ul.socialmedia a {
 	border: 1px solid transparent;
 }
 
+#contact input[type="text"]:focus,
+#contact input[type="email"]:focus,
+#contact textarea:focus {
+	background-color: #49cbcd;
+	border: 1px solid #000;
+	box-shadow: 0 0 5px #FFF;
+}
+
+#contact textarea {
+	width: 98%;
+	margin: 0 1% 10px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	color: #000;
+	font-size: 1.6em;
+	height: 180px;
+	resize: none;
+	outline: none;
+	border: 1px solid transparent;
+}
+
+#contact input[type="submit"] {
+	background-color: #49cbcd;
+	color: #fff;
+	border-radius: 5px;
+	width: 170px;
+	height: 50px;
+	display: block;
+	float: right;
+	margin-right: 1%;
+}
+
+
+
