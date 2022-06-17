@@ -423,5 +423,42 @@ header {
 	line-height: 20px;
 	padding-right: 15%;
 	margin-bottom: 40px;
+}
 
+ul.socialmedia li {
+	float: left;
+}
+
+ul.socialmedia a {
+	color: #FFF;
+	background-repeat: no-repeat;
+	width: 42px;
+	height: 42px;
+	display: block;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+.facebook {
+	background-image: url(../images/ico-facebook.png);
+}
+
+.twitter {
+	background-image: url(../images/ico-twitter.png);
+}
+
+.google {
+	background-image: url(../images/ico-googleplus.png);
+}
+
+.facebook:hover {
+	background-image: url(../images/ico-facebook-pb.png);
+}
+
+.twitter:hover {
+	background-image: url(../images/ico-twitter-pb.png);
+}
+
+.google:hover {
+	background-image: url(../images/ico-googleplus-pb.png);
 }
