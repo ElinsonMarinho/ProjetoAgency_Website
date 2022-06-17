@@ -400,3 +400,28 @@ header {
 	overflow: hidden;
 	background-size: cover;
 }
+
+.box2 {
+	float: left;
+	width: 50%;
+}
+
+.text-white {
+	color: #FFF;
+}
+
+#footer h3 {
+	color: #FFF;
+	font-size: 2.4em;
+	margin-bottom: 20px;
+	padding: 15%;
+}
+
+#footer p {
+	font-size: 1.4em;
+	color: rgba(255, 255, 255, 0.5);
+	line-height: 20px;
+	padding-right: 15%;
+	margin-bottom: 40px;
+
+}
