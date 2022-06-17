@@ -462,3 +462,30 @@ ul.socialmedia a {
 .google:hover {
 	background-image: url(../images/ico-googleplus-pb.png);
 }
+
+.address a, 
+.address span {
+	text-decoration: none;
+	color: #bface2;
+	line-height: 25px;
+	font-size: 1.4em;
+}
+
+#contact textarea {
+	display: block;
+}
+
+#contact input[type="text"],
+#contact input[type="email"]
+{
+	width: 48%;
+	margin: 0 1% 10px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	box-sizing: border-box;
+	font-size: 1.6em;
+	color: #000;
+	outline: none;
+	border: 1px solid transparent;
+}
+
