@@ -522,5 +522,23 @@ ul.socialmedia a {
 	margin-right: 1%;
 }
 
+/* Chrome, Safari, Opera */
+::-webkit-input-placeholder {
+	color: #c1c1c1;
+}
 
+/* Firefox 18- */
+:-moz-placeholder {
+	color: #c1c1c1;
+}
+
+/* Firefox 19+ */
+::-moz-placeholder {
+	color: #c1c1c1;
+}
+
+/* IE10+ */
+:-ms-input-placeholder {
+	color: #c1c1c1;
+}
 
