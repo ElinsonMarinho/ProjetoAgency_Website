@@ -542,3 +542,17 @@ ul.socialmedia a {
 	color: #c1c1c1;
 }
 
+/*----------------------------------------------
+Media Queries
+----------------------------------------------*/
+
+/*Para Dispositivos de 980px ou menos*/
+@media screen and (max-width: 980px){
+	.container {
+		width: 980px;
+	}
+	.info {
+		padding-left: 1%;
+		box-sizing: border-box;
+	}
+}
